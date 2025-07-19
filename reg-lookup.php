@@ -3,8 +3,8 @@
  * Plugin Name:  JSON Reg Look Up (Multi-Form, Refactored)
  * Plugin URI:   https://kandeshop.com
  * Description:  A plugin that uses Gravity Forms (IDs 2,5,7) to look up vehicle data and image URL from ukvehicledata, and forcibly populates both visible and hidden fields.
- * Version:      2.0.1
- * Author:       D Kandekore
+ * Version:      2.0
+ * Author:       Darren Kandekore
  * Author URI:   https://kandeshop.com
  * License:      GPL-2.0+
  * Text Domain:  reglookup
@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) {
 // Define plugin constants
 define( 'REGLOOKUP_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'REGLOOKUP_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'REGLOOKUP_VERSION', '1.4' );
+define( 'REGLOOKUP_VERSION', '2.0' );
 
 /* ------------------------------------------------------------------
  * Form Field Constants (These are field IDs within a form, less likely to change across installs)
